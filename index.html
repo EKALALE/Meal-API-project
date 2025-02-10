@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal API Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Delicious Meals</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#meals">Meals</a>
+            <a href="#Favorites" >Favorites</a>
+            <a href="Top rated">Top rated </a>
+        </nav>
+    </header>
+
+    <!-- SEARCH BAR -->
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search for a meal...">
+        <button onclick="searchMeals()">Search</button>
+    </div>
+
+    <!-- MEAL LIST -->
+    <div id="meal-container"></div>
+   <!-- CONTACT FORM -->
+   <section id="contact">
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+    <p id="form-response"></p>
+</section>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <p> Developed by PHILIPO &copy; 2025 Delicious Meals. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
